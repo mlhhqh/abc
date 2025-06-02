@@ -1,0 +1,116 @@
+.current-line, .current-line-exact {
+    border-radius: 7px !important;
+    outline: none !important;
+    overflow: hidden !important;
+}
+
+.quick-input-widget {
+    /* backdrop-filter: blur(16px); */
+    /* background-color: rgba(255, 255, 255, 0.33) !important; */
+    /* background-color: rgba(28, 28, 30, 0.88) !important;*/
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    /* A light grey border with low opacity */
+    border-radius: 8px !important;
+    /* A slight rounding of the edges */
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 40px !important;
+    /* margin-top: 10% !important; */
+    /* border-radius: 15px !important; */
+    padding: 1px;
+    /* background-color: rgba(0, 0, 0, 0.44) !important; */
+    /* box-shadow: rgba(100,100,100,0.88) 0 0 30px !important; */
+    /* border: 1.5px solid rgba(255,255,255,0.33) !important; */
+    outline: none !important;
+    overflow: hidden !important;
+}
+
+/* .quick-input-widget>.quick-input-list>.monaco-list {
+    max-height: 41vh !important;
+} */
+
+
+.monaco-resizable-hover {
+    border: 1px rgba(255, 255, 255, 0.33) !important;
+    border-radius: 8px;
+    overflow: hidden !important;
+}
+
+.monaco-resizable-hover > .monaco-sash {
+    display: none !important;
+    border: none !important;
+}
+
+.monaco-hover {
+    border: none !important;
+    outline: none !important;
+    overflow: hidden !important;
+}
+
+.composite.title.has-composite-bar {
+    padding-left: 1px !important;
+}
+
+.composite.has-composite-bar.header-or-footer.header {
+    padding-left: 0;
+    justify-content: center;
+}
+
+.composite.has-composite-bar.header-or-footer.header>.composite-bar-container>.composite-bar>.monaco-action-bar>.actions-container,
+.composite-bar-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.monaco-editor .suggest-details {
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 40px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    margin-bottom: 15px !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 8px !important;
+    /* box-shadow: rgba(0, 0, 0, 0.6) 0 0 20px !important; */
+    padding: 2px;
+    outline: none !important;
+    overflow: hidden !important;
+}
+
+.monaco-editor .suggest-widget {
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 8px !important;
+    box-shadow: rgba(0, 0, 0, 0.9) 0 0 50px !important;
+    padding: 2px;
+    outline: none !important;
+    overflow: hidden !important;
+}
+
+.monaco-hover {
+    /* backdrop-filter: blur(16px);
+    background-color: rgba(28, 28, 30, 0.88) !important; */
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 8px !important;
+    box-shadow: rgba(0, 0, 0, 0.9) 0 0 50px !important;
+    padding: 2px;
+    outline: none !important;
+    overflow: hidden !important;
+}
+
+.parameter-hints-widget {
+    /* background-color:#111314  !important; */
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 8px !important;
+    box-shadow: rgba(0, 0, 0, 0.9) 0 0 50px !important;
+    padding: 2px;
+    outline: none !important;
+    overflow: hidden !important;
+}
+
+#workbench\.parts\.editor>div.content>div>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.title.show-file-icons>div>div>div>div.monaco-breadcrumbs {
+    font-size: 13px;
+}
+
+#workbench\.parts\.sidebar>div.composite.has-composite-bar.header-or-footer.header>div>div>div>ul {
+    display: flex !important;
+}
+
+#workbench\.parts\.sidebar>div.composite.has-composite-bar.header-or-footer.header>div>div {
+    width: 100%;
+}

@@ -1,0 +1,49 @@
+{
+    "vscode_custom_css.imports": [
+        "file:///~/vsc_minimal.css"
+    ],
+    "custom-ui-style.external.imports": [
+        "file:///~/vsc_minimal.css"
+    ],
+    "custom-ui-style.font.sansSerif": "Inter",
+    // "custom-ui-style.background.url": "",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBorder": "#ffffff2f",
+        "editor.lineHighlightBackground": "#203b416d"
+    },
+    // "editor.lineHeight": 1.68,
+    "workbench.editor.enablePreview": false,
+    "editor.semanticHighlighting.enabled": true,
+    "gopls": {
+        "ui.semanticTokens": true
+    },
+    "colorIdentifiersMode.tokenKinds": [
+        "variable",
+        "parameter",
+    ],
+    "window.titleBarStyle": "custom",
+    "editor.fontFamily": "IBM Plex Mono",
+    "editor.fontWeight": "400",
+    "editor.fontSize": 18,
+    "editor.minimap.enabled": false,
+    "workbench.productIconTheme": "icons-carbon",
+    "workbench.colorTheme": "SpaceBox Fleet",
+    "workbench.activityBar.location": "top",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "telemetry.feedback.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "editor.experimental.treeSitterTelemetry": false,
+    "update.mode": "none",
+    "update.showReleaseNotes": false,
+    "ShortcutMenuBar.beautify": false,
+    "ShortcutMenuBar.openFilesList": false,
+    "ShortcutMenuBar.userButton01Command": "",
+    "ShortcutMenuBar.startDebugging": true,
+    "ShortcutMenuBar.openSettings": true,
+    "ShortcutMenuBar.findReplace": true,
+    "accessibility.dimUnfocused.enabled": true,
+    "window.commandCenter": false,
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.experimental.showMoves": true
+}

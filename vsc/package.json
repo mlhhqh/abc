@@ -1,0 +1,68 @@
+{
+  "name": "ts-background-highlighter",
+  "displayName": "Tree-sitter Background Highlighter",
+  "description": "Highlights background of Tree-sitter nodes with customizable colors",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:go"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "tsBgHighlight.toggle",
+        "title": "Toggle Tree-sitter Background Highlighting"
+      },
+      {
+        "command": "tsBgHighlight.refresh",
+        "title": "Refresh Tree-sitter Background Highlighting"
+      }
+    ],
+    "configuration": {
+      "title": "Tree-sitter Background Highlighter",
+      "properties": {
+        "tsBgHighlight.colors.keyword": {
+          "type": "string",
+          "default": "#3d2a5e",
+          "description": "Background color for keywords (purple)"
+        },
+        "tsBgHighlight.colors.variable": {
+          "type": "string",
+          "default": "#2a3d5e", 
+          "description": "Background color for variables/parameters (blue)"
+        },
+        "tsBgHighlight.colors.string": {
+          "type": "string",
+          "default": "#2a5e3d",
+          "description": "Background color for strings (green)"
+        }
+      }
+    },
+    "keybindings": [
+      {
+        "command": "tsBgHighlight.toggle",
+        "key": "ctrl+alt+t",
+        "mac": "cmd+alt+t"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "16.x",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "web-tree-sitter": "^0.20.8"
+  }
+}
